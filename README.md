@@ -2,6 +2,8 @@
 
 Mini Shell réunit une interface graphique GTK 4 et le projet de shell réalisé à 42 par Jordan Busquet et jbossuyt. La fenêtre graphique ne simule pas les commandes : elle lance le véritable exécutable `minishell` comme processus enfant, lui transmet les lignes saisies et affiche sa sortie.
 
+![minishell](assets/minishell.png)
+
 ## Fonctionnement
 
 - **Interface GTK 4** : affiche la sortie du shell dans une zone défilante et transmet les commandes saisies avec Entrée.
