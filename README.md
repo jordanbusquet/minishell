@@ -24,6 +24,15 @@ L’interface est une console graphique simple, pas un émulateur de terminal co
 
 La prise en charge exacte dépend de l’implémentation du minishell 42 incluse dans `minishell/`.
 
+## Cloner le dépôt
+
+Clone le dépôt puis place-toi dans son dossier :
+
+```sh
+git clone https://github.com/jordanbusquet/minishell.git
+cd minishell
+```
+
 ## Prérequis
 
 Le projet est prévu pour un environnement POSIX (Linux/macOS) ou MSYS2 compatible avec les dépendances du projet 42.
