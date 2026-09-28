@@ -1,0 +1,107 @@
+/* Style de la fenêtre principale */
+#main-window {
+    background-color: #272727;
+    border: 3px solid #a078d4;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style de la scrollbar */
+scrollbar {
+  background-color: transparent;
+  padding: 0;
+  margin: 5px;
+  border: none;
+  box-shadow: none;
+}
+
+scrollbar slider,
+scrollbar slider:hover {
+  background-color: #a077d480; /* même couleur initiale */
+  border: none;
+  border-radius: 6px;
+  min-width: 5px;
+  min-height: 5px;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+/* Seule la couleur change */
+scrollbar slider:hover {
+  background-color: #a078d4;
+}
+
+/* Style pour ma page */
+#vbox {
+    margin: 5px;
+}
+
+/* Style de base pour mes éléments */
+#info-label, #prompt-label, #entry, #terminal-output {
+    background-color: transparent;
+    color: #ffffff;
+    font-family: "Ubuntu Mono", "Fira Code", "Consolas", monospace;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    margin: 0 0 2px 0;
+    padding: 0;
+}
+
+/* Style de chemin relatif du terminal */
+#path {
+    color: #a078d4;
+}
+
+/* Style de mon "hostname */
+#hostname {
+    color: white;
+    margin-right: 5px;
+    padding: 1px;
+}
+
+/* Style de mon "prompt-label" */
+#prompt-label {
+    color: #a078d4;
+    margin-right: 5px;
+}
+
+/* Style du champ d'entrée */
+#entry {
+    caret-color: #a078d4;
+    box-shadow: none;
+    outline: none;
+    min-height: 0;
+}
+
+/* Style de l'espace */
+#espace {
+    padding: 1px;
+}
+
+/* Supprimer les bordures et focus visuels */
+#entry:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+#terminal-output {
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: normal;
+    padding: 8px;
+}
+
+#terminal-output text {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/* Change la couleur lors d'une selection de texte */
+#entry selection {
+    background-color: #a078d4;
+    color: #272727;
+}

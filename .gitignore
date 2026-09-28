@@ -1,0 +1,9 @@
+# === Fichiers binaires compilés ===
+*.exe           # Fichiers exécutables Windows
+minishell/minishell
+minishell/minishell.exe
+minishell/obj/
+minishell/libft/libft.a
+
+# === Visual Studio Code ===
+.vscode/        # Paramètres utilisateur locaux de l'éditeur
